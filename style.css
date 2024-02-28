@@ -1,0 +1,118 @@
+body{
+    background:#F3EEEA;
+    font-family: "Nunito", sans-serif;
+
+}
+#mainNavbar .navbar-brand{
+    color: #B0A695;
+}
+.navbar-brand{
+    font-size: 2.4em;
+    padding-right: 10px;
+}
+#mainNavbar .nav-item{
+    color: #B0A695;
+}
+.nav-item{
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+.nav-item:hover{
+    font-weight: 500;
+    opacity: 1;
+    color: #776B5D;
+}
+.nav-item:first-child{
+    opacity: 0.8;
+    color: #776B5D;
+}
+.margin-bottom-class {
+    padding: 0px 0px 20px 0px;
+    color: #B0A695;
+    font-size: 4em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    
+}
+.margin-bottom-class:first-child{
+    margin-top: 40px;
+}
+span{
+    color: #776B5D;
+}
+
+#element-section{
+    padding-bottom: 150px;
+}
+
+h2{
+    color: #776B5D;
+}
+footer{
+    background-color: #EBE3D5;
+
+}
+
+.content{
+    font-weight: 300;
+    font-size: 1.7em;
+    color: #776B5D;
+    line-height: 1.7em;
+}
+.form-label{
+    font-weight: 300;
+    font-size: 1.7em;
+    color: #776B5D;
+}
+.form-text{
+    font-weight: 200;
+    font-size: 1.4em;
+    color: #776B5D;
+}
+
+
+#team{
+    padding-bottom: 150px;
+}
+
+.scrolled{
+    background: whitesmoke;
+    opacity: 0.9;
+    transition: background 500ms;
+}
+
+@media (min-width:1335px) and (max-width:1500px){
+    #HeadOfLake h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width:757px){
+    img{
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:1000px){
+    .content{
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 1334px){
+    #HeadOfLake h1{
+        font-size: 2.5em;
+    }
+}
+
+
+/* @media (min-width:768px) and (max-width:904px){
+    #HeadOfLake h1{
+        font-size: 1em;
+    }
+} */
+/* @media (max-width:767px){
+    #HeadOfLake h1{
+        font-size: 2em;
+    }
+} */
